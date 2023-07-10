@@ -1,0 +1,70 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+
+#nitesh_clinic{
+    margin: 100px auto;
+    width: 90%;
+    padding: 7px;
+}
+
+
+#nitesh_clinic >div:nth-child(1){
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#nitesh_clinic input{
+    text-align: center;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-top: 0.5px solid black;
+    border-radius: 15px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+
+#nit_clinic_cards{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin: auto;
+    
+}
+
+
+.nitesh-cli-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 7px;
+}
+
+
+.nitesh-cli-card > div:nth-child(1) > img{
+    width: 100%;
+    border-radius: 7px;
+   
+}
+
+
+.nitesh-cli-card > div:nth-child(1) > img:hover{
+    transform: scale(1.10);
+    transition: 0.6s;
+}
+
+
+.nitesh-cli-card p{
+    margin-top: 7px;
+    text-align: center;
+}
+
