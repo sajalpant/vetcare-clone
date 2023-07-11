@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const appointmentSchema = new mongoose.Schema({
   email: {
     type: String,
@@ -10,7 +9,5 @@ const appointmentSchema = new mongoose.Schema({
     required: true
   }
 });
-
 const Appointment = mongoose.model('emailconfirmation', appointmentSchema);
-
 module.exports = Appointment;
